@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorescraper Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <style>
+        /* reused from other projects */
+
+        * {
+            text-align: center;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: gray;
+        }
+
+        .center {
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #main {
+            height: min-content;
+            z-index: 3;
+            overflow: hidden;
+            overflow-y: scroll;
+            max-height: 80%;
+        }
+
+        .card-body {
+            height: min-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="center card w-50" id="main">
+        <div id="card-header" class="card-header">
+            <b>Scorescraper</b>
+        </div>
+        <div id="card-body" class="card-body">
+            <div>Our homepage is currently under construction.</div>
+            <br>
+            <a href="https://github.com/scorescraper">GitHub</a>
+            <a href="mailto:scorescraper@gmail.com">Contact</a>
+        </div>
+    </div>
+</body>
+</html>
